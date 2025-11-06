@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
     int arr[5], i, num, sum, maxSum = 0, maxNum;
 
@@ -30,5 +30,4 @@ int main()
     printf("Number with maximum digit sum: %d\n", maxNum);
     printf("Maximum digit sum: %d\n", maxSum);
 
-    return 0;
 }
